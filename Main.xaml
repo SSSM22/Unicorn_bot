@@ -1,0 +1,290 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="538,4925.333333333333" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="642,5391.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="name" />
+      <Variable x:TypeArguments="x:String" Name="uname" />
+      <Variable x:TypeArguments="x:String" Name="month" />
+      <Variable x:TypeArguments="x:String" Name="psd" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: RPA Sample Apps" sap:VirtualizedContainerService.HintSize="580,1986" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="6499047c-d89a-47be-8572-b5b0c8b76da5" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1767.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Unicorn Name Generator'" sap:VirtualizedContainerService.HintSize="388,158.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6499047c-d89a-47be-8572-b5b0c8b76da5" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.rpasamples.com/" CvElementArea="628, 226, 320, 353" CvType="Button" DesignTimeRectangle="633, 369, 315, 66" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Unicorn Name Generator'" FullSelectorArgument="&lt;webctrl class='content' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='content' tag='DIV' type='' aaname='Unicorn Name Generator' check:innerText='Unicorn Name Generator' /&gt;" Guid="d106593f-fcd8-4641-b778-47057e529eab" InformativeScreenshot="4bbb4fd76218a3886eaa2e9eb373b584.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='RPA Sample Apps' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="388,243.33333333333334" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Name" Title="Enter Name For Unicorn">
+              <ui:InputDialog.Result>
+                <OutArgument x:TypeArguments="x:String">[name]</OutArgument>
+              </ui:InputDialog.Result>
+            </ui:InputDialog>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT txtName'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,220" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="6499047c-d89a-47be-8572-b5b0c8b76da5" Text="[name + &quot;[k(Tab)]&quot;]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.rpasamples.com/findunicornname" CvElementArea="697, 381, 547, 67" CvTextArea="712, 405, 187, 28" CvTextArgument="Enter your name" CvType="InputBox" DesignTimeRectangle="701, 461, 542, 62" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT txtName'" FullSelectorArgument="&lt;webctrl id='txtName' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='txtName' tag='INPUT' type='text' class='text-input set-font' aaname='' /&gt;" Guid="e6cde1d6-867f-4c5b-a71e-5056f1ec8f76" InformativeScreenshot="22b1b7cb78986e4bc6f593e4811e41c1.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Find Unicorn Name' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="388,243.33333333333334" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="Enter Month" Title="Month">
+              <ui:InputDialog.Result>
+                <OutArgument x:TypeArguments="x:String">[month]</OutArgument>
+              </ui:InputDialog.Result>
+            </ui:InputDialog>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,228.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_2" Text="[month]" Version="V3" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Get Unicorn Name'" sap:VirtualizedContainerService.HintSize="388,158.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6499047c-d89a-47be-8572-b5b0c8b76da5" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.rpasamples.com/findunicornname" CvElementArea="833, 690, 274, 70" CvTextArea="861, 714, 218, 25" CvTextArgument="Get Unicorn Name" CvType="Button" DesignTimeRectangle="836, 692, 270, 66" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'Get Unicorn Name'" FullSelectorArgument="&lt;webctrl id='getNameButton' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='getNameButton' tag='BUTTON' type='' class='submit-button set-font' aaname='Get Unicorn Name' check:innerText='Get Unicorn Name' /&gt;" Guid="05f1c0af-9e1d-4630-aa46-43c7841105a8" InformativeScreenshot="381eee99d48845fe5f2c97b7f38cc51a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Find Unicorn Name' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NGetText DisplayName="Get Text 'Fancy Moon-Clover'" sap:VirtualizedContainerService.HintSize="388,158.66666666666666" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="6499047c-d89a-47be-8572-b5b0c8b76da5" TextString="[uname]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.rpasamples.com/findunicornname" CvTextArea="829, 889, 236, 30" CvType="AnyWordGroup" DesignTimeRectangle="831, 883, 232, 34" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Fancy Moon-Clover'" FullSelectorArgument="&lt;webctrl id='lblUnicornName' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='lblUnicornName' tag='DIV' type='' class='output-text' /&gt;" Guid="bbe5bf78-a351-466f-80dc-158fc34b7df7" InformativeScreenshot="c016dc70af011058eafaf8822cf3a3ec.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Find Unicorn Name' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NGetText.Target>
+            </uix:NGetText>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1030" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAIBSURBVDhPY8ADmIGYC8IkA6gp8KgHuUjZQLnEgYaGBv2ioiIVEDsvWjkqP0a5AMSOjIyUbGtrswSx8YI17f3rN23YOGdVZWvW9u78f/snZ//f1tTXu2HDhpbV3ZP3Q5XhBnvbJ0+d1dp1+uzBI3dXTSr6v6Yn7f/55RveTOnoOnq4e8YyqDLcYP78+Vnr1q37X1xc/L+iouJ/ZnLK/3Qg3rhx4/+1a9d2QpXhBOxbtmx5Z2Rk9N/Y0uy/s7Pzf2Nj4/8e/j7/Q0ND/2/evPm3tbW1FFQtJrC3t9feu3cvWJNNqt9/c3Pz/1ZWVv8Dm7P/u7i4/F+1atX/CRMmeEOVY4LAwECD79+//4+JiflvZ2f3H+QSPz+//wEBAWD8/v37/yt6Ji83VdPkhWpBBRoaGgo/fvz4/+/fv//Pnj37/+TJEzB++vTp/79///4HgXvLt/xvjk1zhWrBBBcvXjwNVokFPLx5+/+r5dv/szAzC0OVYwJgyGvcuXPnOVQPHABd8rGvpiHz8rQl5yamF+ZDlWMHdXV1x+bOnQuKuiNAvGvevHn/Gxsbb0OlGaSFRVWBFCuEhwX0JCc/XVxQ8L8zLm5+W3Jy87zs7P9T0tP/AqVYICoIgIlmZjUH3N0fdBkbx1Xp6joD2TemmZvPhUoTB3hZWfmgTAYuFhbs0QYGDAwA2qQRBB7D/0YAAAAASUVORK5CYII=" InformativeScreenshot="edb3da8b0d0bea2780e7ae598613733a.jpg" Selector="&lt;html app='chrome.exe' title='RPA Sample Apps' /&gt;" Title="RPA Sample Apps" Url="https://www.rpasamples.com/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: RPA Sample Apps" sap:VirtualizedContainerService.HintSize="580,692" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="e5ba4d0c-ad0c-4a61-b3c5-32d7a1439dc6" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,473.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Password Generator'" sap:VirtualizedContainerService.HintSize="388,158.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e5ba4d0c-ad0c-4a61-b3c5-32d7a1439dc6" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.rpasamples.com/" CvTextArea="634, 864, 287, 27" CvTextArgument="Password Generator" CvType="Text" DesignTimeRectangle="637, 863, 282, 33" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Password Generator'" FullSelectorArgument="&lt;webctrl aaname='Password Generator' class='content' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Password Generator' class='content' tag='DIV' type='' check:innerText='Password Generator' /&gt;" Guid="94d4fb38-38fa-4949-be1c-cdc1aeffb05f" InformativeScreenshot="4d72cd639dccd500537bc51a85856674.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='RPA Sample Apps' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NGetText DisplayName="Get Text 'moq-1M^9*1GhD309@g%7L7O%'" sap:VirtualizedContainerService.HintSize="388,158.66666666666666" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="e5ba4d0c-ad0c-4a61-b3c5-32d7a1439dc6" TextString="[psd]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.rpasamples.com/passwordgenerator" CvTextArea="309, 438, 913, 66" CvType="AnyWordGroup" DesignTimeRectangle="311, 434, 910, 69" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'moq-1M^9*1GhD309@g%7L7O%'" FullSelectorArgument="&lt;webctrl id='generated-password' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='generated-password' tag='SPAN' type='' class='password-text' /&gt;" Guid="2ae8094c-0423-4e1e-b240-7a3c017728f0" InformativeScreenshot="e4fcdc415b65c8a075f6b6d57603a142.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Password Generator' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+              </uix:NGetText.Target>
+            </uix:NGetText>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1030" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAIBSURBVDhPY8ADmIGYC8IkA6gp8KgHuUjZQLnEgYaGBv2ioiIVEDsvWjkqP0a5AMSOjIyUbGtrswSx8YI17f3rN23YOGdVZWvW9u78f/snZ//f1tTXu2HDhpbV3ZP3Q5XhBnvbJ0+d1dp1+uzBI3dXTSr6v6Yn7f/55RveTOnoOnq4e8YyqDLcYP78+Vnr1q37X1xc/L+iouJ/ZnLK/3Qg3rhx4/+1a9d2QpXhBOxbtmx5Z2Rk9N/Y0uy/s7Pzf2Nj4/8e/j7/Q0ND/2/evPm3tbW1FFQtJrC3t9feu3cvWJNNqt9/c3Pz/1ZWVv8Dm7P/u7i4/F+1atX/CRMmeEOVY4LAwECD79+//4+JiflvZ2f3H+QSPz+//wEBAWD8/v37/yt6Ji83VdPkhWpBBRoaGgo/fvz4/+/fv//Pnj37/+TJEzB++vTp/79///4HgXvLt/xvjk1zhWrBBBcvXjwNVokFPLx5+/+r5dv/szAzC0OVYwJgyGvcuXPnOVQPHABd8rGvpiHz8rQl5yamF+ZDlWMHdXV1x+bOnQuKuiNAvGvevHn/Gxsbb0OlGaSFRVWBFCuEhwX0JCc/XVxQ8L8zLm5+W3Jy87zs7P9T0tP/AqVYICoIgIlmZjUH3N0fdBkbx1Xp6joD2TemmZvPhUoTB3hZWfmgTAYuFhbs0QYGDAwA2qQRBB7D/0YAAAAASUVORK5CYII=" InformativeScreenshot="4451063c5ce2498f44e35d230111d437.jpg" Selector="&lt;html app='chrome.exe' title='RPA Sample Apps' /&gt;" Title="Password Generator" Url="https://www.rpasamples.com/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: RPA Form" sap:VirtualizedContainerService.HintSize="580,2522.6666666666665" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="86b6bcfc-322c-4357-8427-d044f32a79f6" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="546,2304" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'DIV'" sap:VirtualizedContainerService.HintSize="484,158.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="86b6bcfc-322c-4357-8427-d044f32a79f6" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://docs.google.com/forms/d/e/1FAIpQLSck6R_rehU0qOZVY_xlStok1ES7E99qVsk_QKvIjJK0_Emfhw/viewform" CvElementArea="502, 513, 55, 58" CvType="Icon" DesignTimeRectangle="516, 527, 30, 30" DesignTimeScaleFactor="1.5" FriendlyName="'DIV'" FullSelectorArgument="&lt;webctrl idx='3' parentid='i5' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='i5' tag='DIV' class='rq8Mwb' aaname='' /&gt;" Guid="5d1d2509-47a2-4d04-893e-f2b9e0867aa0" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAFISURBVFhH7dc/S8NAGMfxzr6Pbu46OXS3ix06ONtR8CUILt3buXQRKggiiN2k2Kk4Ch06lJYOLl0KRUjiIz/theTu0t4f7xowB98lucvzIZlSmi2nlIcKCJ8AuX6+pEqrTIfNAyfh2ZjBz01B6t0T6WEXYVZydgyBUnbAZck3E0Ncfo6sMFOAyDb66P9CLnqn0uteIY27KoVRQC+TJ+GeNwhDsMVjvEB4xMdqQbXOcWqPc4gKAjmFqCKQM4gOAilD2sMb6o/vpff4dBFICQIEW7swJgikDcHKwpgikBIE7cLYIJAyBGVhZIizzpFwfltaEMRj3uav1gikDUE8hi1TBDKCoMf328343/UZrI0RyBiCRrPBDyL6Cunq4Vy6RzUrCALGFoGsIX9VAeETILn5ncjNDxbKxS8nC0qXnwnPTr4JlgDZT1P6Bu7JtfKjvjfXAAAAAElFTkSuQmCC" InformativeScreenshot="1cfaf211bdc268b0a3145512f6f819ae.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='RPA Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Unicorn Name'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="484,220" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="86b6bcfc-322c-4357-8427-d044f32a79f6" Text="[uname]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://docs.google.com/forms/d/e/1FAIpQLSck6R_rehU0qOZVY_xlStok1ES7E99qVsk_QKvIjJK0_Emfhw/viewform" CvTextArea="513, 703, 122, 19" CvTextArgument="Your answer" CvType="Text" DesignTimeRectangle="516, 774, 443, 36" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='whsOnd zHQkBf' aaname='' /&gt;" Guid="f8b110af-fa34-48cf-91d2-0bb2a9e17a2f" InformativeScreenshot="db9dd121463c23b05af95a839a49668c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='RPA Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CvElementArea="508, 689, 458, 47" CvTextArea="513, 703, 122, 19" CvTextArgument="Your answer" CvType="InputBox" DesignTimeRectangle="516, 693, 152, 36" ElementType="Text" FriendlyName="'Unicorn Name'" FullSelectorArgument="&lt;webctrl parentid='i8' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='i8' tag='SPAN' type='' class='M7eMe' aaname='Unicorn Name' check:innerText='Unicorn Name' /&gt;" ImageBase64="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" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="484,220" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="86b6bcfc-322c-4357-8427-d044f32a79f6" Text="[name]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://docs.google.com/forms/d/e/1FAIpQLSck6R_rehU0qOZVY_xlStok1ES7E99qVsk_QKvIjJK0_Emfhw/viewform" CvElementArea="506, 587, 459, 48" CvTextArea="513, 603, 122, 19" CvTextArgument="Your answer" CvType="InputBox" DesignTimeRectangle="516, 595, 443, 36" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl aria-labelledby='i12' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-labelledby='i12' tag='INPUT' type='text' class='whsOnd zHQkBf' aaname='' /&gt;" Guid="153dde03-2c2f-4dee-abe1-1474119e5b42" InformativeScreenshot="76b03713e79329739fa5e462bb980c37.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='RPA Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Month'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="484,220" sap2010:WorkflowViewState.IdRef="NTypeInto_6" ScopeIdentifier="86b6bcfc-322c-4357-8427-d044f32a79f6" Text="[month]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://docs.google.com/forms/d/e/1FAIpQLSck6R_rehU0qOZVY_xlStok1ES7E99qVsk_QKvIjJK0_Emfhw/viewform" CvElementArea="507, 812, 459, 47" CvTextArea="513, 826, 122, 19" CvTextArgument="Your answer" CvType="InputBox" DesignTimeRectangle="516, 819, 443, 36" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl aria-labelledby='i16' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-labelledby='i16' tag='INPUT' type='text' class='whsOnd zHQkBf' aaname='' /&gt;" Guid="c046cb7f-bccc-449b-b3c2-ab74e6af6af3" InformativeScreenshot="e333282646fff171776a4cc6a696db61.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='RPA Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CvTextArea="514, 742, 70, 24" CvTextArgument="Month" CvType="Text" DesignTimeRectangle="513, 744, 72, 22" ElementType="Text" FriendlyName="'Month'" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Generated Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="484,220" sap2010:WorkflowViewState.IdRef="NTypeInto_7" ScopeIdentifier="86b6bcfc-322c-4357-8427-d044f32a79f6" Text="[psd]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://docs.google.com/forms/d/e/1FAIpQLSck6R_rehU0qOZVY_xlStok1ES7E99qVsk_QKvIjJK0_Emfhw/viewform" CvElementArea="507, 663, 458, 46" CvTextArea="513, 676, 122, 19" CvTextArgument="Your answer" CvType="InputBox" DesignTimeRectangle="516, 669, 443, 36" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl aria-labelledby='i20' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-labelledby='i20' tag='INPUT' type='text' class='whsOnd zHQkBf' aaname='' /&gt;" Guid="c565db3a-6d83-44a5-b751-5fa0d551d0c0" InformativeScreenshot="9e44359e38497321c7670935cf3c916f.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='RPA Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CvTextArea="513, 592, 240, 24" CvTextArgument="Generated Password *" CvType="Text" DesignTimeRectangle="516, 588, 222, 36" FriendlyName="'Generated Password'" FullSelectorArgument="&lt;webctrl parentid='i20' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='i20' tag='SPAN' type='' class='M7eMe' aaname='Generated ' check:innerText='Generated Password' /&gt;" ImageBase64="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" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Submit'" sap:VirtualizedContainerService.HintSize="484,158.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="86b6bcfc-322c-4357-8427-d044f32a79f6" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://docs.google.com/forms/d/e/1FAIpQLSck6R_rehU0qOZVY_xlStok1ES7E99qVsk_QKvIjJK0_Emfhw/viewform" CvTextArea="511, 1000, 75, 19" CvTextArgument="Submit" CvType="Text" DesignTimeRectangle="479, 985, 143, 54" DesignTimeScaleFactor="1.5" FriendlyName="'Submit'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='SPAN' class='l4V7wb Fxmcue' aaname='' check:innerText='Submit' /&gt;" Guid="1f0b11ae-705a-4fe4-ad48-8d413b7d0ae4" InformativeScreenshot="abe776b657f008d247b4f5d61a022a7b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='RPA Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="484,86" sap2010:WorkflowViewState.IdRef="MessageBox_3" Text="[&quot;DONE&quot;]" />
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Inbox (1,370) - saishivamani.s@gmail.com - Gmail" sap:VirtualizedContainerService.HintSize="484,624.6666666666666" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" ScopeGuid="dd06e530-a214-4f0e-bffd-bb7351236bf8" Version="V2">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,406" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Google Forms'" sap:VirtualizedContainerService.HintSize="388,158.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="dd06e530-a214-4f0e-bffd-bb7351236bf8" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="https://mail.google.com/mail/u/0/#inbox" CvTextArea="505, 468, 137, 25" CvTextArgument="Google Forms" CvType="Text" DesignTimeRectangle="509, 467, 133, 26" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Google Forms'" FullSelectorArgument="&lt;webctrl id=':22' tag='TABLE' /&gt;&lt;webctrl name='Google Forms' parentid=':29' tableRow='1' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id=':22' tag='TABLE' /&gt;&lt;webctrl name='Google Forms' parentid=':29' type='' tag='SPAN' class='yP' aaname='Google Forms' check:innerText='Google Forms' /&gt;" Guid="8496aaf0-0a2e-47e3-9b29-ffce99535326" InformativeScreenshot="7954d6d46ff64c4038fe278e853fe47f.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Inbox (1,370) - saishivamani.s@gmail.com - Gmail' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target CvTextArea="807, 468, 656, 25" CvTextArgument="RPA Form - Thanks for filling out RPA Form Here's what was received." CvType="Text" DesignTimeRectangle="809, 467, 92, 26" ElementType="Text" FriendlyName="'RPA Form'" FullSelectorArgument="&lt;webctrl id=':22' tag='TABLE' /&gt;&lt;webctrl aaname='RPA Form' tableCol='5' tableRow='1' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id=':22' tag='TABLE' /&gt;&lt;webctrl aaname='RPA Form' type='' class='' tag='SPAN' check:innerText='RPA Form' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGAAAAAeCAYAAADTsBuJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAStSURBVGhD7ZjPSxtpGMf3T3FByGHwoPRQsIeSHGRAiVChpxREC7V7kYVChIU5CDlIc1g8uR6MC8IcpPUSy5LIHjKwBIOEjRBDIQkFK5IQQbEn4bvPO+9M8s7kTTIjLJPSOXwO8z7vz+f7vs/zvvPT7bcHhARHKEDAhAIETChAwIQCBEwoQMCEAgRMKEDAOAVo6Ej8PIkJGdNzWN08QvFaqE8UNiV1TWYQfZ2CftZx1Bdp5TVEWF1FQ+5GXmcgw+Zq80pHXdZ2jJAKMLusIbWV7qGt42Vshi8qlkKh3WvDBVjCW7E+sfF6AU8UZlOQOGj2xuhyj9xviuUsBRv5e0mdIQyaq8heCZeytmOEVIDEwZWjkk39WMMsW3S60i3jApAoQr0u1wa0GLOvQf/qst2cYIP6imjbSD2jOskTtET7KEbM9XvBlwC332rYmSdnPdtG0SobKgDR+kszd/nbj85QdPlx3dz5mvGAYvq5XKRhPFaA9hXKhoFcvoRyw8Opu7tH/bxE9Suo30nsROuiwvv74uyv9aWGQp7GOm2iNaCtTwGukHnldPgoAW6NlCmAs88O9DeWkGxip9vmyVo9HJwv+vArQLuGzLsFnnMEImoSmX+djqsfrJBthcpLSKl2mJw0N4vTXsH7Fz0721DqVomc3cQH91jTtME+98aw8SfAHQ3IwsX8PspW2aNOgDVON5TZ/fpJmn4EIIdklpmjFMQ1HbnzK1w2asgdpBBneUohZwrO4Q5+jmhMIYHWsX1Iu/hYR/bCbZ9BfOuETlKHTskJUqYYJII6R7kyiR2jicuvTRT2kogyESTr8y7AXQfF3RVTVdE+VIB2SZoDqntL5gLen/XKir+zMLSEHWuRI7Hm+nK3QovsSLGPPXfYgMvAZ97PxJujbsLm9als8Q+UJaHDtkfceetiH3HWjp2OhlBOF45skpWv44PrFikVIPJ0Aeq8k+g062AS0V8/oSpMigvQfwtKJdesNu6FN7GzSOVCHjE542FI3a0JdYdgzdV0lBTbCULeGhCHC5ts5/acZjvYnbdsbLv2t9tGG46NLdnp5d0Fxxg2owV4ymPc7HIaGaP/ZHABZCh48oKOb97V5nwfKtn7Hd2f4IdizVXVjigBsqTqpoQqe1tYt60JzZD3Q9hh0hnje99uBtsHC8DbeBTAEYIaR0iwOEmdijvfZmQSdsFDzSSmYoLIFvzEUGg6lbd1IJurDPukbJbkdoZ1UVg95H2NlwBE9U/WmEKJ3r9YXwLYyZZe1W7nc+YwReNHhjnLxqsA3/0JYDDHsWSqaMgKr2CGLwFop7EkHt+TvYwZVn7w8mvCqwD21fkROWB8BCBa/6TNq9Qs7SQx83sXwP71MPymwyfq4deEZwHo0Xe4ZjosIROebi6sn8gvn/puQWMlgOlAjcXvOcf10bMANwY2rFzinpwDaw4TgkOk+BBAfAeo7/aRNWqo0us2S/dzdeA7YOwEINoUT9mEF+khZh1nrwK0jpPmpEc7zHolj/o14UcABomgJ5fMHMPmYTO1qEF3ncjgBPgRuGGvVv5vp3rt8w/s/8CPJ8CYEQoQMKEAARMKEDChAAETChAoD/gP8lZQWiLFRB8AAAAASUVORK5CYII=" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="388,91.33333333333333" sap2010:WorkflowViewState.IdRef="Delay_3" />
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="-11, -11, 1942, 1030" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="e361dc9c8990f8921212ec81f11ec5d9.jpg" Selector="&lt;html app='chrome.exe' title='Inbox (1,370) - saishivamani.s@gmail.com - Gmail' /&gt;" Title="Inbox (1,370) - saishivamani.s@gmail.com - Gmail" Url="https://mail.google.com/mail/u/0/#inbox" />
+              </uix:NApplicationCard.TargetApp>
+            </uix:NApplicationCard>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1030" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAA4SURBVDhPY0i32n4AiP+TifeDDMAmQTQeZAbAADIbG0DWQ10DyMGjXhh0XiAHU8WA/eiCxOPtuwEl0a7qam5sogAAAABJRU5ErkJggg==" InformativeScreenshot="09223bde815755577a2dc1d7b892510c.jpg" Selector="&lt;html app='chrome.exe' title='RPA Form' /&gt;" Title="RPA Form" Url="https://docs.google.com/forms/d/e/1FAIpQLSck6R_rehU0qOZVY_xlStok1ES7E99qVsk_QKvIjJK0_Emfhw/viewform" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
